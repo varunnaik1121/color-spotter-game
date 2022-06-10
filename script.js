@@ -8,10 +8,10 @@ const minMax = (min, max) => {
 };
 
 const randomColors = () => {
-  var red = minMax(60, 150);
-  var green = minMax(65, 155);
-  var blue = minMax(65, 255);
-  var ratio = 0.92 + Math.random() * 0.05;
+  var red = minMax(75, 205);
+  var green = minMax(75, 205);
+  var blue = minMax(75, 205);
+  var ratio = 0.91 + Math.random() * 0.05;
   var fixedRatio = ratio.toFixed(2);
   console.log(fixedRatio);
   var even = `rgba(${red},${green},${blue})`;
