@@ -6,7 +6,6 @@ var allowClick = true;
 const minMax = (min, max) => {
   return Math.floor(Math.random() * (max - min)) + min;
 };
-
 const randomColors = () => {
   var red = minMax(75, 205);
   var green = minMax(75, 205);
